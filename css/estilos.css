@@ -340,6 +340,10 @@ figure {
 /*Desktop First*/
 @media screen and (max-width: 1024px)
 {
+  .container
+  {
+    padding: 0, 1em;
+  }
   body{
     /*border: 1px solid;*/
   };
@@ -419,6 +423,27 @@ figure {
     margin: -2em .5em .5em .5em;
     padding: 1em;
   }
+  .contact
+  {
+    height: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    display: block;
+  } 
+  .form-email button{
+    margin: 1em auto;
+  }
+  .form-email h3
+  {
+    margin-top: 0;
+  }
+  .footer
+  {
+    display: block;
+    text-align: center;
+    border: 1px transparent;
+  }
+  
   body{
     /* border: 1px solid; */
   };
